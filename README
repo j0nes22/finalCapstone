@@ -1,0 +1,59 @@
+# Task Manager
+
+The Task Manager is an administrative tool designed to streamline task management and organisation. It provides users with the ability to register, log in, add tasks with completion dates, view tasks, generate reports, and display statistics. This project serves as the final capstone project, demonstrating the implementation of various functionalities, an essential tool for your arsenal. 
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+
+## Installation
+
+### Prerequisites
+
+- Python 3.x: [Download Python](https://www.python.org/downloads/)
+- Git: [Download Git](https://git-scm.com/downloads)
+- Visual Studio Code (or any code editor of your choice): [Download Visual Studio Code](https://code.visualstudio.com/download)
+
+## Usage
+- Run the program by executing the following command:
+- python task_manager.py
+
+
+The program will prompt you to log in. Use the following credentials:
+
+Username: admin / Password: password
+
+After successful login, you can utilize the available commands:
+
+- r: Register a new user.
+
+- a: Add a task to a specific user with a completion date.
+
+- va: View all tasks (select which user with an option to mark as complete / delete task)
+
+- vm: View your tasks (admin tasks) 
+
+- gr: Generate reports (displays on screen and prints to a .txt file).
+
+- ds: Display statistics (prints % reports and stats of all tasks within the database)
+
+Follow the on-screen instructions to interact with the Task Manager. Please note, 'ds' can only be executed when reports are generated. 
+
+## Programme Photos
+
+![alt text](https://i.imgur.com/5scYV2j.png)
+
+![alt text](https://i.imgur.com/LL78mym.png)
+
+![alt text](https://i.imgur.com/futJ8xD.png)
+
+![alt text](https://i.imgur.com/7tuuNZr.png)
+
+![alt text](https://i.imgur.com/5hn8RR2.png)
+
+## Credits
+### Adam Jones (J0nes22)
+Thanks to the HyperionDev team for their support during the development of this final project. https://www.hyperiondev.com/portal/
+
